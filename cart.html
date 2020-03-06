@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Nasa | Rocket Shop</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <a href="./index.html"><li class="item">Home</li></a>
+                    <li><div class="dot"></div></li>
+                    <a href="./browse.html"><li class="item">Browse</li></a>
+                    <li><div class="dot"></div></li>
+                    <a href="./cart.html"><li class="item">Cart</li></a>
+                </ul>
+            </nav>
+        </header>
+        <section class="main_desc">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum nulla tempora hic ex sed dicta, atque aliquid ea modi
+                excepturi facere incidunt assumenda, quasi possimus libero amet
+                omnis, quibusdam nostrum?
+            </p>
+        </section>
+        <section class="cart">
+            <div class="item">
+                <img src="./assets/cartItem.svg" />
+                <div class="item-info">
+                    <h4>Starship</h4>
+                    <p>Version 2.45</p>
+                </div>
+            </div>
+            <div class="quantity">
+                <button id="del_btn">-</button>
+                <p id="rocket_count">1</p>
+                <button id="add_btn">+</button>
+            </div>
+            <div class="price">
+                <p>$1,200,000</p>
+            </div>
+        </section>
+        <section class="total">
+            <p class="bold">Total Cost</p>
+            <p id="total">$1200000</p>
+        </section>
+        <section class="checkout">
+            <button class="cta" id="checkout_btn">Checkout</button>
+        </section>
+        <script src="./js/cart.js"></script>
+    </body>
+</html>
